@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(252, 250, 246);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /*Muutin sivun taustaväriä sekä muutin koko sivun fonttia*/
+}
+
+#ylapalkki h1{
+    text-align: center;
+    /*siirsin yläotsikon keskelle sivua*/
+}
+nav{
+    margin: 0;
+    padding: 0;
+    border: 1px solid #e7e7e7;
+    background-color: rgb(150, 150, 150);
+    overflow: hidden;
+}
+nav a{
+    padding: 14px 16px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    /*Muokkasin nav palkkia niin että teksiten väliin jää enemmän tilaa ja poistettiin alleviivaukset näkyviltä*/
+    
+}
+#txt img{
+    border:solid rgb(252, 250, 246);
+    border-radius: 40%;
+            max-width: 50%;
+            height: auto;
+            margin-left: auto;
+            margin-right: auto;
+            /*tein kuvasta pyöreän rajaamalla sen ja määrittämällä prosenttimäärän*/
+            
+}
+footer{
+    text-align: center;
+    background-color: rgb(150, 150, 150);
+    color: aliceblue;
+    /*teksti siirretty keskelle sivua ja taustavärit sekä tekstin väri muutettu*/
+}
+#app a{
+    text-align: left;
+}
+footer a{
+    text-decoration: none;  
+    color:aliceblue;   
+    /*tekstistä poistettu alleviivaukset ja väri muutettu*/
+    }
