@@ -1,25 +1,36 @@
 body{
-    background-color: rgb(252, 250, 246);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    padding-bottom: 58px;
+    min-height: 100vh;
     /*Muutin sivun taustaväriä sekä muutin koko sivun fonttia*/
 }
 
-#ylapalkki h1{
+#ylapalkki{
     text-align: center;
+    color: #e7e7e7;
+    background-color: rgb(63, 62, 62);
+    padding: 10px;
+
     /*siirsin yläotsikon keskelle sivua*/
 }
 nav{
     margin: 0;
-    padding: 0;
-    border: 1px solid #e7e7e7;
-    background-color: rgb(150, 150, 150);
+    padding: 10px;
+    background-color: rgb(63, 62, 62);
     overflow: hidden;
+    border: solid 10px white;
 }
 nav a{
     padding: 14px 16px;
     text-decoration: none;
     color: rgb(255, 255, 255);
-    /*Muokkasin nav palkkia niin että teksiten väliin jää enemmän tilaa ja poistettiin alleviivaukset näkyviltä*/
+    /*Muokkasin nav palkkia niin että teksien väliin jää enemmän tilaa ja poistettiin alleviivaukset näkyviltä*/
+    
+}
+#txt{
+    padding: 30px 20px;
     
 }
 #txt img{
@@ -33,20 +44,23 @@ nav a{
             
 }
 footer{
-    text-align: center;
-    background-color: rgb(150, 150, 150);
+    text-align:center;
+    background-color: rgb(63, 62, 62);
     color: aliceblue;
+   position: absolute;
+    bottom: 0;
+    padding: 5px;
+    width: 100%;
+
     /*teksti siirretty keskelle sivua ja taustavärit sekä tekstin väri muutettu*/
 }
-#app a{
-    text-align: left;
-}
+
 footer a{
     text-decoration: none;  
     color:aliceblue;   
     /*tekstistä poistettu alleviivaukset ja väri muutettu*/
     }
-#alapalkki img{
-       max-width: 30px;
-       margin: 10px;
-    }
+    #alapalkki img{
+        max-width: 30px;
+        margin: 10px;
+     }
