@@ -46,3 +46,7 @@ footer a{
     color:aliceblue;   
     /*tekstistä poistettu alleviivaukset ja väri muutettu*/
     }
+#alapalkki img{
+       max-width: 30px;
+       margin: 10px;
+    }
