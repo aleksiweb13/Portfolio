@@ -1,9 +1,7 @@
 body{
     background-color: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
-    position: relative;
     padding-bottom: 58px;
-    min-height: 100vh;
     /*Muutin sivun taustaväriä sekä muutin koko sivun fonttia*/
 }
 
@@ -11,15 +9,16 @@ body{
     text-align: center;
     color: #e7e7e7;
     background-color: rgb(63, 62, 62);
-    padding: 10px;
+    padding: 30px;
 
     /*siirsin yläotsikon keskelle sivua*/
 }
 nav{
     margin: 0;
-    padding: 10px;
+    padding: 5px;
     background-color: rgb(63, 62, 62);
     overflow: hidden;
+    align-items: center;
     border: solid 10px white;
 }
 nav a{
@@ -47,10 +46,11 @@ footer{
     text-align:center;
     background-color: rgb(63, 62, 62);
     color: white;
-   position: absolute;
     bottom: 0;
     padding: 5px;
     width: 100%;
+    position: fixed;
+    z-index: 1;
 
     /*teksti siirretty keskelle sivua ja taustavärit sekä tekstin väri muutettu*/
 }
