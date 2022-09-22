@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: #f1f1f1;
     font-family: Arial, Helvetica, sans-serif;
     padding-bottom: 58px;
     /*Muutin sivun taustaväriä sekä muutin koko sivun fonttia*/
@@ -10,8 +10,10 @@ body{
     color: #e7e7e7;
     background-color: rgb(63, 62, 62);
     padding: 30px;
-
     /*siirsin yläotsikon keskelle sivua*/
+}
+h1{
+    font-size: 48px;
 }
 nav{
     margin: 0;
@@ -19,26 +21,38 @@ nav{
     background-color: rgb(63, 62, 62);
     overflow: hidden;
     align-items: center;
-    border: solid 10px white;
+    border: solid 5px white;
 }
 nav a{
     padding: 14px 16px;
     text-decoration: none;
     color: rgb(255, 255, 255);
     /*Muokkasin nav palkkia niin että teksien väliin jää enemmän tilaa ja poistettiin alleviivaukset näkyviltä*/
-    
+
+
 }
 #txt{
-    padding: 30px 20px;
-    
+    background-color: #fff;
+padding: 20px;
+margin-bottom: 20px;
+border-radius: 5px;
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+margin-top: 20px;
+font-size: 22px;
+   
+
+   
 }
+
 #txt img{
     border:solid rgb(252, 250, 246);
-    border-radius: 40%;
-            max-width: 50%;
+            max-width: 40%;
             height: auto;
             margin-left: auto;
             margin-right: auto;
+           
             /*tein kuvasta pyöreän rajaamalla sen ja määrittämällä prosenttimäärän*/
             
 }
@@ -48,7 +62,7 @@ footer{
     color: white;
     bottom: 0;
     padding: 5px;
-    width: 100%;
+     width: 100%; 
     position: fixed;
     z-index: 1;
 
