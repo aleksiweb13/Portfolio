@@ -78,7 +78,7 @@ section{
 
 
 #home{
-    background-image:url(../kansikuva.jpg); 
+    background-image:url('../kansikuva.jpg'); 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; 
